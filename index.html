@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Our Landing Page</h1>
+      <nav>
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <h2>Codsoft INTERNSHIP Level 1 (Task 1)</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet
+          elit quis justo facilisis, ac hendrerit dui tincidunt.
+        </p>
+
+        <label for="expand-checkbox" id="toggle-paragraph-label" class="btn"
+          >Learn More</label
+        >
+        <input type="checkbox" id="expand-checkbox" />
+
+        <div class="expandable-paragraph">
+          <p>
+            This is the hidden paragraph content. It will expand when the link
+            is clicked. Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Est porro ab, quae et magnam quam alias? Facere nam
+            consequuntur odit corrupti ad commodi iure deleniti ea quia aliquid,
+            voluptates nisi?
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="features">
+        <div class="feature">
+          <h3>Feature 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="feature">
+          <h3>Feature 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="feature">
+          <h3>Feature 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </section>
+    </main>
+
+    <section id="contact" class="contact">
+      <h1>Contact Us</h1>
+      <p>
+        Feel free to reach out to us with any questions or inquiries. We'll get
+        back to you as soon as possible.
+      </p>
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
